@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Lato:wght@300;400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+  
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'figtree', sans-serif;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 370px;
+    height: 500px;
+    
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px ;
+}
+
+.image-holder svg{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.learn{
+    border: 1px solid;
+    border-radius: 7px;
+    background-color:hsl(47, 88%, 63%) ;
+    width: 95px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile{
+    margin-top: 1rem;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.profile img{
+    width: 30px;
+
+}
+
+h4{
+    font-weight: 800;
+}
+
+.date{
+    color:hsl(0, 0%, 7%);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.foundations{
+    color:hsl(0, 0%, 7%);
+    font-weight: 800;
+    margin-top: 15px;
+    margin-left: 20px;
+
+
+}
+
+.foundations:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.deets{
+    color:hsl(0, 0%, 50%) ;
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 1.5;
+   
+}
+
+@media(max-width:375px){
+    .foundations{
+        font-size: 1.25rem;
+    }
+}
