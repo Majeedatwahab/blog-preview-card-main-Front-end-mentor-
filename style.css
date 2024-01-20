@@ -14,16 +14,16 @@ body{
     background-color: hsl(47, 88%, 63%);
     font-family: 'figtree', sans-serif;
     min-height: 100vh;
+    display: grid;
+    place-content: center;
 }
 
 .container{
-    max-width: 370px;
+    max-width:400px;
     height: 500px;
-    
     background-color: hsl(0, 0%, 100%);
     border: 1px solid;
     border-radius: 10px;
-    margin: auto;
     margin-top: 50px;
     box-shadow: 5px 5px ;
 }
